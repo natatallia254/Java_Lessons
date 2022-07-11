@@ -3,7 +3,7 @@ package Lesson_6;
 import java.util.Arrays;
 
 public class Task_2 {
-    public static void Task2() throws Exception {
+    public void Task2() throws Exception {
         //try {
             String[][] MyArray = new String[4][4];
             for (int i = 0; i < 4; i++) {
