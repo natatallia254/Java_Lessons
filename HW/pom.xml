@@ -12,6 +12,7 @@
         <maven.compiler.target>15</maven.compiler.target>
         <apache.commons.version>3.12.0</apache.commons.version>
         <testng.version>7.5</testng.version>
+        <seleniumhq.selenium.version>4.4.0</seleniumhq.selenium.version>
     </properties>
 
     <dependencies>
@@ -28,6 +29,14 @@
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${seleniumhq.selenium.version}</version>
+        </dependency>
+
 
     </dependencies>
 
