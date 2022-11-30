@@ -1,8 +1,3 @@
-/*Реализуйте небольшой тест. В поле email укажите почтовый ящик и напишите
-какие-нибудь проверки. (https://diary.ru/user/registration)
-Создайте проект с архетипом quickstart, выложите его в публичный репозиторий.
-В качестве практического задания сдайте только ссылку на репозиторий*/
-
 package Lesson_10;
 
 import org.openqa.selenium.By;
@@ -11,9 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
-
 import static java.lang.Thread.sleep;
 
 public class AutoTest {
@@ -52,6 +45,7 @@ public class AutoTest {
                 }
                 //button.click();
                 wait.until(ExpectedConditions.urlToBe("https://diary.ru/new"));   //ждем 10 сек. (выше), чтобы прогрузилась след. страница
+                System.out.println("The end. Test is successful");
 
             /*String window_new = driver.getCurrentUrl();
             String window_old = "https://diary.ru/new";
